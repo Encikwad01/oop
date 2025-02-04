@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/testing/Downloads/oop",
-      "program": "/Users/testing/Downloads/oop/build/Debug/outDebug"
+      "cwd": "/Users/testing/Documents/OOPDS/oop",
+      "program": "/Users/testing/Documents/OOPDS/oop/build/Debug/outDebug"
     }
   ]
 }
