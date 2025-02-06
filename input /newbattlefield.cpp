@@ -94,25 +94,25 @@ class Battlefield {
 
 int main() {
     // Create battlefield using config file
-    Battlefield battlefield("text.txt");
+    Battlefield battlefield("textfile2.txt");
     
     // Display loaded configuration
     battlefield.displayConfig();
     
     // Set specific cells to 1 as per the pattern
-    battlefield.setIsland(1, 7, 1);
-    battlefield.setIsland(1, 8, 1);
-    battlefield.setIsland(2, 7, 1);
-    battlefield.setIsland(2, 8, 1);
+    battlefield.setIsland(7, 1, 1);
+    battlefield.setIsland(8, 1, 1);
+    battlefield.setIsland(7, 2, 1);
+    battlefield.setIsland(8, 2, 1);
     
     battlefield.setIsland(4, 4, 1);
-    battlefield.setIsland(5, 4, 1);
-    battlefield.setIsland(6, 4, 1);
+    battlefield.setIsland(4, 5, 1);
+    battlefield.setIsland(4, 6, 1);
     
-    battlefield.setIsland(8, 5, 1);
-    battlefield.setIsland(8, 6, 1);
-    battlefield.setIsland(8, 7, 1);
-    battlefield.setIsland(9, 7, 1);
+    battlefield.setIsland(5, 8, 1);
+    battlefield.setIsland(6, 8, 1);
+    battlefield.setIsland(7, 8, 1);
+    battlefield.setIsland(7, 9, 1);
     
     // Display the grid
     battlefield.displayBattlefield();
